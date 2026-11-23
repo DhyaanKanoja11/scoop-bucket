@@ -1,0 +1,22 @@
+{
+  "version": "0.2.1",
+  "description": "Local-first developer security tool explaining why network services are reachable",
+  "homepage": "https://github.com/DhyaanKanoja11/Lantern",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/DhyaanKanoja11/Lantern/releases/download/v0.2.1/lantern_0.2.1_windows_amd64.zip",
+      "hash": "2671bd17a0866cd41db9d88578bbf8c25b4acaa4f3528a1325982b9fded3804e"
+    }
+  },
+  "bin": "lantern.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/DhyaanKanoja11/Lantern/releases/download/v$version/lantern_$version_windows_amd64.zip"
+      }
+    }
+  },
+  "notes": "Lantern on native Windows operates in diagnostic mode ('doctor', 'version'). For active socket inspection and process attribution, run Lantern inside WSL2."
+}

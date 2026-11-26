@@ -1,12 +1,12 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Local-first developer security tool explaining why network services are reachable",
   "homepage": "https://github.com/DhyaanKanoja11/Lantern",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/DhyaanKanoja11/Lantern/releases/download/v0.4.0/lantern_0.4.0_windows_amd64.zip",
-      "hash": "0824e4e1a5ec04f9912fd2cbfed0d9b7dd64ffb87e2c16be78ad85de1c81f2ec"
+      "url": "https://github.com/DhyaanKanoja11/Lantern/releases/download/v0.4.1/lantern_0.4.1_windows_amd64.zip",
+      "hash": "c032bb07e6865b36eaf0f996905635af8c1094ff37f09db6b8b829cd34bf4ae6"
     }
   },
   "bin": "lantern.exe",
